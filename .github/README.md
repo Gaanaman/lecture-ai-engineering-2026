@@ -9,6 +9,7 @@ The codebase is extended lecture by lecture into a learning-support assistant bu
 | Lecture | Topic | Homework level | Write-up |
 |---|---|---|---|
 | 1 | AI engineering and AI-assisted coding | Basic, Implementation, Advanced | [lectures/01/answer.md](https://github.com/Gaanaman/lecture-ai-engineering-2026/blob/main/lectures/01/answer.md) |
+| 2 | Fundamentals of foundation models: LoRA fine-tuning | Basic, Implementation, Advanced | [lectures/02/answer.md](https://github.com/Gaanaman/lecture-ai-engineering-2026/blob/main/lectures/02/answer.md) |
 
 ## Lecture 1: Principal Results
 
@@ -21,6 +22,15 @@ Two models (`gemini-3.5-flash-lite`, `gemini-3.5-flash`) and three temperature s
 
 All 21 benchmark calls are recorded in [lectures/01/results/](https://github.com/Gaanaman/lecture-ai-engineering-2026/tree/main/lectures/01/results), and the tables in the write-up are generated from these records.
 
+## Lecture 2: Principal Results
+
+`Qwen/Qwen3.5-0.8B` was fine-tuned with LoRA in four runs: the course notebook, the same notebook at LoRA rank 4, a fictional mobile-money wallet FAQ in English, and the course glossary, compared with the glossary search used by the lecture 3 agent.
+
+1. **Training fixed the output format, not the judgement.** Valid JSON rose from 2 of 21 to 21 of 21 answers after 40 steps on 14 examples, while questions close to a covered topic were still answered with that topic.
+2. **A lower training loss did not mean better answers.** At rank 4, with a quarter of the trainable parameters, the final loss was lower (0.013 against 0.014) but the content rate fell from 0.905 to 0.857.
+3. **Fine-tuning on the glossary reproduced the training wording.** Trained definitions were recalled 6 of 6 times with the training question and 2 of 6 times when reworded; untrained and nonexistent terms received invented definitions.
+4. **Glossary search outperformed fine-tuning, within limits.** The base model with search answered 14 of 26 questions correctly, against 8 for the fine-tuned model without search and 7 with it. Questions that describe a term without naming it failed in all four conditions.
+
 ## Additions to the Codebase
 
 | File | Purpose |
@@ -28,6 +38,7 @@ All 21 benchmark calls are recorded in [lectures/01/results/](https://github.com
 | `app/ask.py` | Single-question client reporting input, output and thinking tokens and response time; options `--temperature`, `--repeat` and `--chat` (follow-up questions with retained history) |
 | `app/bench.py` | Model and temperature comparison, paced below the free-tier limit, with retries on HTTP 429 and 503; result tables are written into the write-up |
 | `tests/test_ask.py` | 13 offline tests using a fake client; no API key or quota is required |
+| `lectures/02/notebooks/` | Four executed notebooks: the course notebook, a rank-4 variant, a wallet FAQ variant, and glossary fine-tuning compared with glossary search |
 
 ## Reproduction
 
@@ -42,4 +53,4 @@ uv run python -m app.bench --write-answer
 
 ## Scope and Limitations
 
-The results derive from coursework conditions: three runs per setting, a single network connection, and a single day (26 October 2026). They describe these runs only and do not characterise Gemini in general. The free-tier limits in effect were those shown for the project in Google AI Studio.
+The results derive from coursework conditions. Lecture 1 used three runs per setting, a single network connection and a single day (26 October 2026); the free-tier limits in effect were those shown for the project in Google AI Studio. Lecture 2 used one training run per setting on an Apple M1 Max GPU (MPS) rather than the course's Colab T4, with 4 to 21 test questions per comparison. The figures describe these runs only and do not characterise the models in general.

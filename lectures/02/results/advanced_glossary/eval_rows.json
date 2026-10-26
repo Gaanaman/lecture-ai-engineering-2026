@@ -1,0 +1,1202 @@
+[
+  {
+    "condition": "base, closed book",
+    "group": "trained, training wording",
+    "id": "homework-levels",
+    "question": "「宿題の3レベル」とは何ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "「宿題の 3 レベル」とは、**学習の進捗やレベルを 3 つの段階に分けて示す方法**です。これは、単一の目標を達成するだけでなく、段階的に進めていくプロセスや、達成した成果を評価する基準として使われることが多く、特に**「学習の進捗管理」**や**「学習成果の評価」**において非常に有用です。\n\n一般的に、この 3 段階は以下のようになります。\n\n### 1. 基本レベル（基礎的な学習）\nこのレベルは、学習の**基礎知識**や**基本概念**を掌握する段階です。\n*   **内容**: 基本的な定義、公式、定理、用語の",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, new wording",
+    "id": "homework-levels",
+    "question": "AIE2026 の講座で使う「宿題の3レベル」は、どういう意味ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "AIE2026（アイルランド・イギリス・アメリカ・ヨーロッパ・アジア・オーストラリア・アジア太平洋地域）の講座で「宿題の 3 レベル」という表現は、**「課題の難易度や範囲」を 3 つの段階に分けて示すための標準的な分類法**です。\n\nこの 3 つのレベルは、単に「難しい」「簡単な」だけでなく、**「どのレベルで解くべきか」**を明確に定義しているため、学習者や指導者が目標を達成するための指針になります。\n\n具体的には、以下の 3 つのレベルに分けられます。\n\n### 1. 基礎レベル（Easy / Beginner）\n*",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, training wording",
+    "id": "answer-md",
+    "question": "「answer.md」とは何ですか？",
+    "must_include": [
+      "lectures/NN/answer.md",
+      "PR"
+    ],
+    "answer": "**`answer.md`** は、**AI（人工知能）の回答生成や回答の検証**において非常に重要なファイルです。\n\nこのファイルは、AI が特定の質問やタスクに対して回答を生成した際に、その回答が**正しいか、適切か、または誤解を招く可能性があるか**を自動でチェックするものです。\n\n主な機能と目的は以下の通りです：\n\n1.  **回答の検証（Verification）**\n    AI が生成した回答に対して、人間が確認できるかどうかを判断します。例えば、AI が「この問題を解く方法」を提案し、人間がそれを確認し、実際に問題に答えるかどうかを確認します。\n\n2.  **誤解",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, new wording",
+    "id": "answer-md",
+    "question": "AIE2026 の講座で使う「answer.md」は、どういう意味ですか？",
+    "must_include": [
+      "lectures/NN/answer.md",
+      "PR"
+    ],
+    "answer": "AIE2026 の講座で使う `answer.md` というファイルは、**「回答（出力）ファイル」**という意味です。\n\n具体的には、講義の回答や課題の解答を、このファイルに保存して提出する際に使います。\n\n主な用途は以下の通りです：\n\n1.  **講義の回答**\n    *   講義の質問に対して、論理的な回答や論理的な思考プロセスを記述する。\n    *   特定の論理の証明や、特定の論理の推論を記述する。\n\n2.  **課題の解答**\n    *   課題（Problem）に対して、解法やコードの出力結果を",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, training wording",
+    "id": "lec-start-tag",
+    "question": "「lecNN-start タグ」とは何ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "「lecNN-start」は、**LeetCode（リテール・コード・ネスト）の「LeetCode」のスタートアッププロジェクト**です。\n\nこのプロジェクトは、LeetCode の開発者コミュニティ（GitHub）を運営する「LeetCode 株式会社」が、2024 年 1 月 1 日に設立したものです。主な目的は、LeetCode の開発者コミュニティをより広く、かつ質の高いコミュニティに引き込むことで、LeetCode の発展と活発な開発活動を促進することです。\n\nこのプロジェクトは、以下の目的で活動しています：\n*   LeetCode の開発者コミュニティの拡大と活性化\n*   LeetCode の開発者コミュニティの質を高める",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, new wording",
+    "id": "lec-start-tag",
+    "question": "AIE2026 の講座で使う「lecNN-start タグ」は、どういう意味ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "AIE2026 の講座で使う「lecNN-start タグ」は、**「学習開始（または学習開始の指示）」**を意味します。\n\n具体的には、以下の意味合いを持ちます：\n\n1.  **学習の開始**: 学習プロセスが正式に開始されることを示す指示です。\n2.  **学習開始のタグ**: 学習開始のイベントやイベントタグとして使用されることで、学習の進行状況やイベントの記録に組み込まれます。\n3.  **学習開始のタグ**: 学習開始のイベントタグとして使用されることで、学習の進行状況やイベントの記録に組み込まれます。\n\nこのタグは、学習開始のイベントやイベントタグ",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, training wording",
+    "id": "default-model",
+    "question": "「既定モデル」とは何ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "「既定モデル」とは、**「既知のデータやルールに基づいて構築された、特定の形式や構造を持つモデル」**を指します。\n\nこの概念は主に以下のような背景で使われます：\n\n*   **機械学習の初期段階**：データが不足している場合、学習アルゴリズム（例えば、ニューラルネットワークや決定木）を構築する際に、事前に定義されたルールやパターンに基づいて学習するモデルを指します。\n*   **データセットの定義**：特定の分野（例：医療診断、金融分析、交通制御）において、特定のルールやシナリオに基づいて設計されたモデルを指します。\n*   **システム設計**：既存のシステムや既存の技術の",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, new wording",
+    "id": "default-model",
+    "question": "AIE2026 の講座で使う「既定モデル」は、どういう意味ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "AIE2026（AI 教育 2026）という大会の「既定モデル」は、**「参加者（学生や研究者）が実際に学習・実習を行うための、事前に準備された標準的な学習セット」**を指します。\n\nこの概念は、従来の「実験的な研究」から、**「実務的なスキル習得」**へとシフトする教育の核となる考え方です。\n\n具体的には、以下の 3 つの要素が組み合わさっています。\n\n### 1. 学習の目的：実務スキル習得\n従来の AIE（AI 教育）は、理論を学ぶだけでなく、実際の AI 開発や業務に携わるスキルを磨くことが求め",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, training wording",
+    "id": "codespaces-secret",
+    "question": "「Codespaces secret」とは何ですか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "**「Codespaces secret」** は、GitHub の **Codespaces**（コードスペース）というプラットフォーム上で、開発者が使用する**暗号化された環境設定ファイル**のことです。\n\n簡単に言うと、GitHub のコードスペースに「暗号化されたパスワード」を埋め込むことで、その環境が公開されていません。\n\n### 主な特徴と仕組み\n\n1.  **暗号化されたパスワード**\n    *   Codespaces は、開発者が設定する環境のパスワードを、GitHub のサーバーに埋め込むことができます。\n    *   これらのパスワードは、GitHub のサーバーに公開されません。そのため、外部からのアクセスや、他のユーザーがコードスペースにアクセスすることはできません。\n\n2.  **セキュリティ",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, new wording",
+    "id": "codespaces-secret",
+    "question": "AIE2026 の講座で使う「Codespaces secret」は、どういう意味ですか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "AIE2026 の講座で使う「Codespaces secret」は、**「コードのセキュリティを管理するための、プロジェクトごとに個別に設定できる秘密ファイル」**を指します。\n\nAIE（AI 教育・インフラ）のプロジェクト管理ツールである「Codespaces」は、AI 開発環境（Python、R、Jupyter など）を構築する際に、開発者が個人で管理するコードを管理する際に、セキュリティ上のリスクを最小化するために、プロジェクトごとに独自に設定できる秘密ファイル（Secret）を管理する仕組みを構築しています。\n\nこの「Codespaces secret」が持つ主な意味と機能は以下の通りです。\n\n### 1. 開発者の個人秘密の管理\nA",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, training wording",
+    "id": "test-model",
+    "question": "「TestModel」とは何ですか？",
+    "must_include": [
+      "偽モデル",
+      "APIキー"
+    ],
+    "answer": "**TestModel** は、主に**テストモデル（Test Model）**という用語で、主に**AI 開発・学習における「テストデータ」または「テストセット」**を指します。\n\n具体的には、以下の 2 つの側面から考えられます。\n\n1.  **AI 学習における「テストデータ」**\n    *   学習モデル（例えば、機械学習のモデル）が訓練された後、実際のデータ（テストデータ）を使って、そのモデルがどのように動作するかを評価する際に使われるものです。\n    *   例：「このモデルは、この画像を認識する能力は高いでしょうか？」という質問に対して、実際に学習したモデルが回答する結果をテストモデルとして確認します。",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, new wording",
+    "id": "test-model",
+    "question": "AIE2026 の講座で使う「TestModel」は、どういう意味ですか？",
+    "must_include": [
+      "偽モデル",
+      "APIキー"
+    ],
+    "answer": "AIE2026（AI 教育・研究会議）における「TestModel」は、**「テストモデル」**の略称です。\n\nこの用語は、AI 教育や研究において、**「テストデータ（テスト用モデル）」**を指す言葉です。\n\n具体的には、以下の 3 つの要素を組み合わせて使われます。\n\n1.  **テストデータ（Test Data）**：\n    実際の学習や実験において、実際に使用されるデータセットのことです。\n2.  **テスト用モデル（Test Model）**：\n    上記の「テストデータ」を学習・訓練・評価するための、**「テストモデル」**のことです。\n3.  **テストモデル（Test",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, described without the term",
+    "id": "homework-levels",
+    "question": "AIE2026 の宿題は何段階に分かれていて、いくつ取り組めば完了ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "AIE2026（アイルランド・イギリス・アメリカ・ヨーロッパ・アジア・オーストラリア・アジア太平洋地域）の宿題は、**「段階的な進捗管理」**と**「段階的な目標設定」**を重視する設計になっています。\n\n一般的に、AIE 宿題は以下の 3 つの段階に分かれており、それぞれの段階で進捗を記録・分析・改善していくことが求められます。\n\n### 1. 段階 1: 課題の定義と分析（分析段階）\nこの段階では、宿題の文脈から「なぜこの課題が必要なのか」という根拠を抽出します。\n*   **内容**: 宿題の背景、目的",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, described without the term",
+    "id": "default-model",
+    "question": "AIE2026 の演習で標準として使うモデルの名前は何ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "AIE2026（AI 教育 2026）の標準的なモデルは、**GPT-4** です。\n\nAIE2026 は、Google AI の最新モデルである「GPT-4」をベースに、より高度な学習能力と安全性を備えた新しいバージョンとして開発されています。このモデルは、従来の GPT-4 よりも、より多くの知識を学習し、より複雑な問題解決能力を備えたものです。\n\nただし、AIE2026 の具体的なバージョン番号（例：GPT-4.5、GPT-4.5-SIM、GPT-4.5-LLM など）は、現時点では公開",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, described without the term",
+    "id": "lec-start-tag",
+    "question": "前の回が終わっていなくても、その回の演習を始められるように講座repoに付いている目印は何ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "前の回が終わっていなくても、その回の演習を始められるように講座の Repository（リポジトリ）に付いている目印は、**「演習開始ボタン（または「開始」ボタン）」**です。\n\n具体的には、演習の開始ボタンが「前の回が終わっていない」という状態（または「この回の演習を開始する」）に設定されている場合、ユーザーは以下の手順で演習を開始できます。\n\n1.  演習のページを開きます。\n2.  演習の開始ボタンをクリックします。\n3.  演習開始画面が表示されるまで待ちます。\n4.  演習開始画面に「前の回が終わっていない」と表示される場合、演習",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "trained, described without the term",
+    "id": "codespaces-secret",
+    "question": "Codespaces の中で API キーを環境変数として受け取るには、GitHub のどこに登録しますか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "GitHub のコードスペース（CodeSpaces）で API キーを環境変数として受け取るには、**GitHub の「設定」から「環境変数」に登録する必要があります。**\n\n具体的には、以下の手順で設定します。\n\n### 手順\n\n1.  GitHub のアプリを起動し、**「設定」タブ**を開きます。\n2.  **環境変数**（Environment Variables）を選択します。\n3.  以下の項目を登録します。\n\n#### 1. 環境変数の名前と値の登録\n*   **名前**: `CODESPACES_API_KEY` (または `CODESPACES_API_KEY` の任意の文字列)\n*   **値**: `ghapi_key",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "in glossary, not trained",
+    "id": "harness",
+    "question": "「ハーネス」とは何ですか？",
+    "must_include": [
+      "ループ",
+      "read・write・edit・bash"
+    ],
+    "answer": "**ハーネス**（Harness）は、主に**スポーツ**や**アウトドア**分野で使用される、人体の筋肉や骨を固定し、体重を支えるための**装着物**です。\n\nこの用語は英語の「Harness」から来ており、その意味は「固定」や「固定装置」です。具体的には、以下の 3 つの主要な用途で使われます。\n\n### 1. 自転車・バイク・スケートボードなどのスポーツ用\n最も一般的な用法です。\n*   **機能**: 乗用車やバイクのハンドルやギアを固定し、乗用車やバイクの乗用車に固定する。\n*   **特徴**: 固定された状態で",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "in glossary, not trained",
+    "id": "pi",
+    "question": "「Pi」とは何ですか？",
+    "must_include": [
+      "MITライセンス",
+      "pi-coding-agent"
+    ],
+    "answer": "「Pi」とは、**円周率**（π）を指します。\n\nこれは、円が中心に点状に点印を印をつけて描いたとき、その円の周長と半径の比を表す数値です。\n\n*   **定義**: $\\pi = \\frac{2 \\pi}{3}$\n*   **値**: 約 3.14159265...\n*   **用途**: 数学、物理学、工学などの分野で、円形物体の性質や、円周率の計算に使われます。\n\n「Pi」という言葉は、英語の「Pi」の由来です。",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "in glossary, not trained",
+    "id": "tool-namespace",
+    "question": "「ツールの名前空間」とは何ですか？",
+    "must_include": [
+      "サーバー名_ツール名",
+      "接頭辞"
+    ],
+    "answer": "「ツールの名前空間」とは、**ソフトウェア開発において、特定のツールやサービスがどのように名付けられているかという、その名前の由来や意味を説明する仕組み**のことです。\n\nこの概念は主に以下の 3 つの観点から理解できます：\n\n1.  **名前の由来（由来）**\n    ツールがどのように名付けられたかについて、その名前の意味や背景を説明するものです。例えば、特定の機能や特徴がその名前の由来になっている場合、その意味を説明します。\n    *   *例：「Google」は「Google」の由来。Google 検索機能の存在や、Google 社のロゴの由来などが説明されます。*\n\n2.  **名",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "in glossary, not trained",
+    "id": "mcp-config",
+    "question": "「mcpServers設定」とは何ですか？",
+    "must_include": [
+      "mcpServers",
+      "app/mcp_servers.json"
+    ],
+    "answer": "**mcpServers** は、MCP（Model Context Protocol）サーバーの配置を指す用語です。\n\nMCP は、AI モデル（モデル）を外部から呼び出すための通信プロトコルであり、その中で「サーバー」の役割を果たすことが重要です。`mcpServers` という名前は、MCP 定義書（MCP 1.0）や関連するガイドライン（例：Microsoft の MCP 定義書）で、サーバーの配置を明示的に記述するパラメータとして定義されています。\n\nこの設定は主に以下の 3 つの目的で使われます：\n\n1.  **モデルの呼び出し場所を指定する**\n    特定のモデル（例",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "in glossary, not trained",
+    "id": "fetch-server",
+    "question": "「fetchサーバー」とは何ですか？",
+    "must_include": [
+      "Markdown",
+      "mcp-server-fetch"
+    ],
+    "answer": "**fetch サーバー**（Fetch Server）は、Web 技術において**HTTP（HyperText Transfer Protocol）の通信を管理するサーバー**です。\n\n簡単に言うと、インターネット上の「通信の道」を制御する場所です。以下にその主な役割と特徴を説明します。\n\n### 主な役割\n1.  **HTTP 通信の管理**\n    fetch サーバーは、クライアント（ユーザーのブラウザやアプリ）とサーバー（ドメイン）間の通信を制御します。これにより、データがどのように送られてくるか、どのように受け取られるかを管理します。\n2.  **リクエストとレスポンスの処理**\n    当時は、サーバーが直接通信を管理していたため",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "in glossary, not trained",
+    "id": "lora-rank",
+    "question": "「ランク（LoRAのr）」とは何ですか？",
+    "must_include": [
+      "低ランク行列",
+      "ハイパーパラメータ"
+    ],
+    "answer": "「ランク（LoRA の r）」は、**LoRA（Low-Rank Adaptation）**という学習手法における**「学習の精度（精度）」**を指します。\n\nLoRA は、大規模モデル（通常は 100 億〜1000 億パラメータ）に対して、非常に小さなモデル（LoRA モデル）を学習させる技術です。この技術の核心は、学習の精度を「100%」に保ちつつ、計算コストを大幅に削減することにあります。\n\nその「ランク（r）」という値は、LoRA モデルの**パラメータの「ランク（Rank）」**を意味します。\n\n### 1. 基本的",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「lec99-final タグ」とは何ですか？",
+    "must_include": null,
+    "answer": "「lec99-final タグ」とは、**「レコード 99 番最終章」**というタイトルで、**「レコード 99 番」**というタイトルで、**「レコード 99 番」**というタイトルで、**「レコード 99 番」**というタイトルで、**「レコード 99 番」**というタイトルで、**「レコード 99 番」**というタイトルで、**「レコード 99 番」**というタイトルで、**「レコード 99 番」**というタイトルで、**「レコード 99 番」**というタイトルで、**「レコード 99 番」**というタイトル",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「AIE2026 の中間レポート」とは何ですか？",
+    "must_include": null,
+    "answer": "「AIE2026 の中間レポート」とは、**AIE（AI 教育・研究）2026 年**という年度における、**中間報告書（中間レポート）**を指す言葉です。\n\n具体的には、以下の意味を含みます：\n\n1.  **AIE2026 の定義**：\n    AIE は「AI 教育・研究」の略で、日本国内では主に**「AI 教育・研究学会（AI 教育・研究会）」**の活動や、その学術・教育活動に関する報告を指します。2026 年という具体的な年度名で、その活動の概要や成果をまとめた報告書です。",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「講座ボーナスレベル」とは何ですか？",
+    "must_include": null,
+    "answer": "「講座ボーナスレベル」とは、**「講座」を「ボーナス」として評価・評価する仕組み**を指す概念です。\n\n一般的に、企業や組織において「講座」を単なる情報提供や教育活動として扱わない場合、その参加者に対して額や点数を付与する**「ボーナス」**として評価する制度を指します。\n\nこの仕組みの主な特徴は以下の通りです。\n\n*   **評価の目的**: 単なる参加者として評価されず、**「参加者の成果や貢献度」を評価**する点です。\n*   **評価基準**: 参加者が講義の内容に深く関与し、質問を投げかけ、議論を深めるなどの**",
+    "correct": false
+  },
+  {
+    "condition": "base, closed book",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「OmniCampus ポイント」とは何ですか？",
+    "must_include": null,
+    "answer": "「OmniCampus ポイント」とは、**「OmniCampus」**という教育プラットフォームの**「ポイント（ポイント）」**を指します。\n\nこのサービスは、日本国内の多くの学校や教育機関（公立・私立、特別支援学校など）に提供されている、**「教育・生活・健康・趣味・学習」を統合した総合的な教育プラットフォーム**です。\n\n主な特徴と機能は以下の通りです。\n\n*   **総合的な教育**: 単一の科目だけでなく、学習、生活、健康、趣味、学習など、5 つの領域を同時に管理・評価します。\n*   **ポイントシステム**: 学生が学習や活動に投入した時間を、ポイントとして管理し、",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, training wording",
+    "id": "homework-levels",
+    "question": "「宿題の3レベル」とは何ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "「宿題の3レベル」とは、AIE2026の宿題の構成において、「基礎（講義内容の確認）」「実装（自分でコードを書く）」「発展（調査や試行）」の3段階があり、どれか1つに取り組めばその回の宿題は完了です。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, new wording",
+    "id": "homework-levels",
+    "question": "AIE2026 の講座で使う「宿題の3レベル」は、どういう意味ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "AIE2026 の講座で使う「宿題の 3 レベル」は、講義内容の確認、自分でコードを書く実装、および調査や試行の発展という 3 つの段階に分けられています。\n\nこれらはどれか 1 つに取り組めばその回の宿題は完了するという原則に基づいています。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, training wording",
+    "id": "answer-md",
+    "question": "「answer.md」とは何ですか？",
+    "must_include": [
+      "lectures/NN/answer.md",
+      "PR"
+    ],
+    "answer": "answer.md は、AIE2026 において各回の演習・宿題の結果を書くファイルです。\n\nこのファイルは `lectures/NN/answer.md` にあり、取り組んだレベル・やったこと・結果・気づきを記入して、作業ブランチから自分の fork の `main` へ PR を出して提出するものです。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, new wording",
+    "id": "answer-md",
+    "question": "AIE2026 の講座で使う「answer.md」は、どういう意味ですか？",
+    "must_include": [
+      "lectures/NN/answer.md",
+      "PR"
+    ],
+    "answer": "AIE2026 の講座で使う「answer.md」は、**各回の演習・宿題の結果を記録するファイル**です。\n\n具体的には、以下の点を記入して提出するものです：\n*   **取り組んだレベル**: どのレベルの課題を解いたかを示す。\n*   **やったこと**: 解いた課題の概要や内容。\n*   **結果**: 解いた結果や得点。\n*   **気づき**: 解いた課題から得た感想や気づき。\n\nこのファイルは、**lectures/NN/answer.md** というフォルダに保存され、作業ブランチから自分の `main` へ PR を提出して提出する",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, training wording",
+    "id": "lec-start-tag",
+    "question": "「lecNN-start タグ」とは何ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "「lecNN-start タグ」は、AIE2026 の講座 repo で、各回の演習開始時点の Git タグです。前の回が終わっていなくても、このタグからブランチを作ればその回の演習を始められる。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, new wording",
+    "id": "lec-start-tag",
+    "question": "AIE2026 の講座で使う「lecNN-start タグ」は、どういう意味ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "AIE2026 の講座で使われる「lecNN-start タグ」は、各回の演習開始時点のコードに付けている Git タグです。\n\nこのタグは、前の回が終わっていなくても、その回の演習を開始するための手段として機能します。つまり、このタグからブランチを作れば、その回の演習を始められるという意味です。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, training wording",
+    "id": "default-model",
+    "question": "「既定モデル」とは何ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "既定モデルは、AIE2026 の演習と宿題で標準に使うモデルです。\n\n無料枠のレート制限と講座運営の安定性を考えて選んでいる。環境変数 AIE_MODEL で他のモデルに切り替えてよく、自分で契約した API を使ってもよい。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, new wording",
+    "id": "default-model",
+    "question": "AIE2026 の講座で使う「既定モデル」は、どういう意味ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "既定モデルは、AIE2026 の演習と宿題で標準に使うモデルを指します。\n\nその意味は、**「標準に使うモデルは gemini-3.5-flash-lite」**です。\n\nこのモデルは、無料枠のレート制限と講座運営の安定性を考慮して選定されているため、環境変数 `AIE_MODEL` で他のモデルに切り替えてよく、自分で契約した API を使ってもよいという趣旨です。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, training wording",
+    "id": "codespaces-secret",
+    "question": "「Codespaces secret」とは何ですか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "GitHub Codespaces secret は、GitHub のアカウント設定に登録しておく秘密の値です。指定した repo の Codespaces を起動すると、環境変数として渡されるため、登録時に使う repo（自分の fork）を選ぶ必要があります。起動中に登録した場合は Codespaces の再起動が必要となります。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, new wording",
+    "id": "codespaces-secret",
+    "question": "AIE2026 の講座で使う「Codespaces secret」は、どういう意味ですか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "AIE2026 の講座で使う「Codespaces secret」は、GitHub のアカウント設定に登録しておく**秘密の値**です。\n\nその意味は以下の通りです：\n1.  **環境変数の提供**: 指定した repo（自分の fork）の Codespaces を起動すると、その環境変数として渡されます。\n2.  **起動時の条件**: 登録時に使う repo を選ぶ必要があります。\n3.  **起動時の動作**: 起動中に登録した場合は、Codespaces の再起動が必要です。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, training wording",
+    "id": "test-model",
+    "question": "「TestModel」とは何ですか？",
+    "must_include": [
+      "偽モデル",
+      "APIキー"
+    ],
+    "answer": "Pydantic AI に含まれるテスト用の偽モデルです。実際の LLM を呼ばずに、ツールを呼び出してダミーの回答を返すもので、API キーや利用枠を使わずに、エージェントの配線（ツールが登録され、呼ばれ、結果が返るか）をテストできます。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, new wording",
+    "id": "test-model",
+    "question": "AIE2026 の講座で使う「TestModel」は、どういう意味ですか？",
+    "must_include": [
+      "偽モデル",
+      "APIキー"
+    ],
+    "answer": "AIE2026 の講座で使う「TestModel」は、Pydantic AI に含まれるテスト用の偽モデルです。実際の LLM を呼ばずに、ツールを呼び出してダミーの回答を返すことで、エージェントの配線（ツールが登録され、呼ばれ、結果が返るか）をテストできます。API キーや利用枠を使わずに、テストが可能です。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, described without the term",
+    "id": "homework-levels",
+    "question": "AIE2026 の宿題は何段階に分かれていて、いくつ取り組めば完了ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "用語集に記載がありません。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, described without the term",
+    "id": "default-model",
+    "question": "AIE2026 の演習で標準として使うモデルの名前は何ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "用語集に記載がありません。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, described without the term",
+    "id": "lec-start-tag",
+    "question": "前の回が終わっていなくても、その回の演習を始められるように講座repoに付いている目印は何ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "用語集に記載がありません",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "trained, described without the term",
+    "id": "codespaces-secret",
+    "question": "Codespaces の中で API キーを環境変数として受け取るには、GitHub のどこに登録しますか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "Codespaces の中で API キーを環境変数として受け取るには、GitHub の **Codespaces secret** に登録します。\n\n（用語集の検索結果に「Codespaces secret」という関連用語が含まれています）",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "in glossary, not trained",
+    "id": "harness",
+    "question": "「ハーネス」とは何ですか？",
+    "must_include": [
+      "ループ",
+      "read・write・edit・bash"
+    ],
+    "answer": "LLMの周りを、ループ・ツール・画面（UI）などで包み、実際に作業できるようにするプログラムです。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "in glossary, not trained",
+    "id": "pi",
+    "question": "「Pi」とは何ですか？",
+    "must_include": [
+      "MITライセンス",
+      "pi-coding-agent"
+    ],
+    "answer": "用語集に記載がありません。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "in glossary, not trained",
+    "id": "tool-namespace",
+    "question": "「ツールの名前空間」とは何ですか？",
+    "must_include": [
+      "サーバー名_ツール名",
+      "接頭辞"
+    ],
+    "answer": "「ツールの名前空間」とは、複数の MCP サーバーを使うとき、同じ名前のツールを区別するために「サーバー名_ツール名」のように接頭辞を付けることです。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "in glossary, not trained",
+    "id": "mcp-config",
+    "question": "「mcpServers設定」とは何ですか？",
+    "must_include": [
+      "mcpServers",
+      "app/mcp_servers.json"
+    ],
+    "answer": "「mcpServers 設定」とは、使う MCP サーバーを列挙する設定ファイルのことです。\n\nこの設定ファイルには、サーバーごとに名前と起動コマンド（stdio）または接続先 URL（HTTP）を記述します。例えば、Claude Desktop や Cursor、Pydantic AI などが同じ形式（mcpServers 形式）で読み込まれるため、設定を数行足すだけでツールが増えるのが MCP の体験の核心です。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "in glossary, not trained",
+    "id": "fetch-server",
+    "question": "「fetchサーバー」とは何ですか？",
+    "must_include": [
+      "Markdown",
+      "mcp-server-fetch"
+    ],
+    "answer": "fetch サーバーは、指定した URL のページを取得し、その内容（本文）を Markdown 形式で返す既製の MCP サーバーです。\n\n本講座では、このサーバーを「設定ファイルに書くだけで外部ツールが増える」例として利用します。モデルが選んだ URL に実際にアクセスするので、利用者が把握しておく必要があります。",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "in glossary, not trained",
+    "id": "lora-rank",
+    "question": "「ランク（LoRAのr）」とは何ですか？",
+    "must_include": [
+      "低ランク行列",
+      "ハイパーパラメータ"
+    ],
+    "answer": "LoRA で使う低ランク行列の大きさを決めるハイパーパラメータを指します。大きいほど表現力が上がるが、学習するパラメータとメモリも増えます。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「lec99-final タグ」とは何ですか？",
+    "must_include": null,
+    "answer": "用語集に記載がありません。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「AIE2026 の中間レポート」とは何ですか？",
+    "must_include": null,
+    "answer": "用語集に記載がありません。",
+    "correct": true
+  },
+  {
+    "condition": "base, with search",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「講座ボーナスレベル」とは何ですか？",
+    "must_include": null,
+    "answer": "講座ボーナスレベルは、講座の参加者や受講者が参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した講座の参加者として、参加した",
+    "correct": false
+  },
+  {
+    "condition": "base, with search",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「OmniCampus ポイント」とは何ですか？",
+    "must_include": null,
+    "answer": "用語集に記載がありません。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, training wording",
+    "id": "homework-levels",
+    "question": "「宿題の3レベル」とは何ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "AIE2026の宿題の構成。「基礎（講義内容の確認）」「実装（自分でコードを書く）」「発展（調査や試行）」の3段階があり、どれか1つに取り組めばその回の宿題は完了。原則として採点はしない。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, new wording",
+    "id": "homework-levels",
+    "question": "AIE2026 の講座で使う「宿題の3レベル」は、どういう意味ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "AIE2026の宿題の構成。「基礎（講義内容の確認）」「実装（自分でコードを書く）」「発展（調査や試行）」の3段階があり、どれか1つに取り組めばその回の宿題は完了。原則として採点はしない。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, training wording",
+    "id": "answer-md",
+    "question": "「answer.md」とは何ですか？",
+    "must_include": [
+      "lectures/NN/answer.md",
+      "PR"
+    ],
+    "answer": "AIE2026で各回の演習・宿題の結果を書くファイル。lectures/NN/answer.md にあり、取り組んだレベル・やったこと・結果・気づきを記入して、作業ブランチから自分のforkの main へPRを出して提出する。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, new wording",
+    "id": "answer-md",
+    "question": "AIE2026 の講座で使う「answer.md」は、どういう意味ですか？",
+    "must_include": [
+      "lectures/NN/answer.md",
+      "PR"
+    ],
+    "answer": "AIE2026の講座運営室で配布されるMarkdownファイル。各回の演習・宿題の結果を書く、結果と質問の組み合わせをリストで表し、ツールの結果をこのファイルから読み込む。原則として毎回配布される。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, training wording",
+    "id": "lec-start-tag",
+    "question": "「lecNN-start タグ」とは何ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "AIE2026の講座repoで、各回の演習開始時点のコードに付けているGitタグ（例：lec03-start）。前の回が終わっていなくても、このタグからブランチを作ればその回の演習を始められる。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, new wording",
+    "id": "lec-start-tag",
+    "question": "AIE2026 の講座で使う「lecNN-start タグ」は、どういう意味ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "AIE2026の講座repoで、各回の演習開始時点のコードに付けているGitタグ（例：lec03-start）。前の回が終わっていなくても、このタグからブランチを作ればその回の演習を始められる。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, training wording",
+    "id": "default-model",
+    "question": "「既定モデル」とは何ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "AIE2026の演習と宿題で標準に使うモデルは gemini-3.5-flash-lite。無料枠のレート制限と講座運営の安定性を考えて選んでいる。環境変数 AIE_MODEL で他のモデルに切り替えてよく、自分で契約したAPIを使ってもよい。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, new wording",
+    "id": "default-model",
+    "question": "AIE2026 の講座で使う「既定モデル」は、どういう意味ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "AIE2026の講座で、各回の演習・宿題で固定するモデル。LoRA で学習し、次の質問に続くときの出力が同じ方向に動く。学習するはプロンプトとループ数ではなく、モデルの選択やLoRAの転写行列。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, training wording",
+    "id": "codespaces-secret",
+    "question": "「Codespaces secret」とは何ですか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "GitHubのアカウント設定に登録しておく秘密の値。指定したrepoのCodespacesを起動すると環境変数として渡される。登録時に使うrepo（自分のfork）を選ぶ必要がある。起動中に登録した場合はCodespacesの再起動が必要。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, new wording",
+    "id": "codespaces-secret",
+    "question": "AIE2026 の講座で使う「Codespaces secret」は、どういう意味ですか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "AIEのCodespaces secretが埋め込まれるアカウントのパスワード。Codespaces secret に書かれたJSONの値は、secret name と description から読み出せる。値がパスワードの場合には、値をコピーして自分のアカウントで確認できる。値が数字や文字列でない場合は、値をコピーして使う。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, training wording",
+    "id": "test-model",
+    "question": "「TestModel」とは何ですか？",
+    "must_include": [
+      "偽モデル",
+      "APIキー"
+    ],
+    "answer": "Pydantic AIに含まれるテスト用の偽モデル。実際のLLMを呼ばずに、ツールを呼び出してダミーの回答を返す。APIキーや利用枠を使わずに、エージェントの配線（ツールが登録され、呼ばれ、結果が返るか）をテストできる。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, new wording",
+    "id": "test-model",
+    "question": "AIE2026 の講座で使う「TestModel」は、どういう意味ですか？",
+    "must_include": [
+      "偽モデル",
+      "APIキー"
+    ],
+    "answer": "AIE2026の講座で、各回の演習や宿題で使うテスト用のモデル。公開されたテストモデルはgemini-3.5-flash-lite。本講座では試験のたびに同じモデルを指定し、出力の言語や出力形式をルールで決める。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, described without the term",
+    "id": "homework-levels",
+    "question": "AIE2026 の宿題は何段階に分かれていて、いくつ取り組めば完了ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "AIE2026の宿題は、講義内容の確認と、自分で選んだ方向の探究の2つに大きく分ける。本講座では探究の方向は自分で決めるので、2回の宿題で全部を回すことができる（回数を増やしすぎると講義内容にぶつかる）。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, described without the term",
+    "id": "default-model",
+    "question": "AIE2026 の演習で標準として使うモデルの名前は何ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "Gemini 3.5 Flashlight。本講座の演習と宿題の回答はこれを使う。外部モデルに切り替えていないため、ツール呼び出しのレート制限と回答の遅れを気にしない。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, described without the term",
+    "id": "lec-start-tag",
+    "question": "前の回が終わっていなくても、その回の演習を始められるように講座repoに付いている目印は何ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "lecture_01/\\n\\nMD fileで定義したGit commitの番号。番号が大きいほど前の回が回に分割されている（番号が同じbranchのrepoで作業しているかを確認できる）。番号を覚えるため、回を数えない。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "trained, described without the term",
+    "id": "codespaces-secret",
+    "question": "Codespaces の中で API キーを環境変数として受け取るには、GitHub のどこに登録しますか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "repo/settings/secrets/your-secrets.json にAPIキーを書くと、GitHubのAPIサーバーが読み込む。環境変数として設定するのは settings/env.json だ。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "in glossary, not trained",
+    "id": "harness",
+    "question": "「ハーネス」とは何ですか？",
+    "must_include": [
+      "ループ",
+      "read・write・edit・bash"
+    ],
+    "answer": "エージェントがツールを呼び出すためのルート。APIキーやパスワードをコードに書かないように使う。Next.js Tool use の2つのルート（providerとhandler）で分ける。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "in glossary, not trained",
+    "id": "pi",
+    "question": "「Pi」とは何ですか？",
+    "must_include": [
+      "MITライセンス",
+      "pi-coding-agent"
+    ],
+    "answer": "Pythonの桁数制限。10の乗る最大桁数。1ビットで表し、1ビットを壊さずに算数をやる。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "in glossary, not trained",
+    "id": "tool-namespace",
+    "question": "「ツールの名前空間」とは何ですか？",
+    "must_include": [
+      "サーバー名_ツール名",
+      "接頭辞"
+    ],
+    "answer": "モデルが次に呼び出せるプログラムの名前や引数の型を指定する設定。Pydantic AIではツールは関数として指定し、モデルは「ツール（name: 'my_tool'）」として認識する。名前空間はツールの名前と引数の型を定義する、側面ではなくモデルに掛かる属性。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "in glossary, not trained",
+    "id": "mcp-config",
+    "question": "「mcpServers設定」とは何ですか？",
+    "must_include": [
+      "mcpServers",
+      "app/mcp_servers.json"
+    ],
+    "answer": "MCPサーバーに接続するツール（またはツールの名前・説明）をサーバーに書ient。次に公開する機能（プロンプト、出力、ファイルなど）と、サーバーとツールの間で交換する内容の範囲を同じにする。範囲が違えば、エージェントがサーバーを呼び出して使うか、サーバーがツールの名前を公開するか、どちらか一方を壊れる。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "in glossary, not trained",
+    "id": "fetch-server",
+    "question": "「fetchサーバー」とは何ですか？",
+    "must_include": [
+      "Markdown",
+      "mcp-server-fetch"
+    ],
+    "answer": "APIをファイルから読み書きや引数で制御し、クライアントとを橋渡しするプラットフォーム。2つのクライアントが対話し、結果はファイルでまとめ、管理者はプログラムで結果を扱う。本講座の質問はよく、fetchからツール（via Claude API）使う。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "in glossary, not trained",
+    "id": "lora-rank",
+    "question": "「ランク（LoRAのr）」とは何ですか？",
+    "must_include": [
+      "低ランク行列",
+      "ハイパーパラメータ"
+    ],
+    "answer": "LoRAの学習率と追加学習の回数を決める重要なパラメータ。設定が間違えると学習が進まないか、過学習しやすいか、または速度が不安定になる。本講座では第2回演習で、1つに収束しない問題を発見し、ランクを調整する。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「lec99-final タグ」とは何ですか？",
+    "must_include": null,
+    "answer": "AIE2026の最終演習。本講座の最後 regel を公開している。公開された regel には「lec99-final」というタグがある。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「AIE2026 の中間レポート」とは何ですか？",
+    "must_include": null,
+    "answer": "AIE2026の講座の進め方・宿題・演習・宿題演習の結果などを作る作業の過程と結果。講義の3時間ではなく、1回の回で2時間以上の作業や、演習の3時間以上の結果を出せるか、宿題の3回の宿題で結果が出せるか、という立ち位置で分類される。レポートは作業の過程や結果のまとめので、作業の1回に結果を出せるかを確認する検査の材料になる。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「講座ボーナスレベル」とは何ですか？",
+    "must_include": null,
+    "answer": "AIE2026の講座のレベル。AIE2の基礎知識＋本講座の内容＋本講座の演習と宿題の合計負担を比べる。3の倍数レベル（0、3、6、9、12）に分類する。負担が3の倍数になるほど、演習と宿題の数が多くなり、時間と学力の要求も増える。本講座の講義時間＋演習時間＋宿題時間の合計を3で割ってレベルを数える。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, closed book",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「OmniCampus ポイント」とは何ですか？",
+    "must_include": null,
+    "answer": "AIE2026の講座repoで、各回の演習・宿題の結果を書く（Git commit）。回をN回すればrepoはNレベルで分ける。宿題の集まりを講座repoへ取り込む（merge）。MCPでOmniCourseを接続して結果を看到る。本講座は宿題の3回を同じrepoで回している。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, training wording",
+    "id": "homework-levels",
+    "question": "「宿題の3レベル」とは何ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "講義内容の確認、自分でコードを書く、や調査試行的3段階があり、どれか1つに取り組めばその回の宿題は完了。原則として採点はしない。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, new wording",
+    "id": "homework-levels",
+    "question": "AIE2026 の講座で使う「宿題の3レベル」は、どういう意味ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "講義内容の確認、自分でコードを書く、や調査の試行の3段階で宿題を構成し、どれか1つに取り組めばその回の宿題は完了。採点はしない。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, training wording",
+    "id": "answer-md",
+    "question": "「answer.md」とは何ですか？",
+    "must_include": [
+      "lectures/NN/answer.md",
+      "PR"
+    ],
+    "answer": "AIE2026で宿題や演習の結果を書くファイル。取り組んだレベル・やったこと・結果・気づきを記入し、作業ブランチから自分のforkの main へPRを出して提出する。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, new wording",
+    "id": "answer-md",
+    "question": "AIE2026 の講座で使う「answer.md」は、どういう意味ですか？",
+    "must_include": [
+      "lectures/NN/answer.md",
+      "PR"
+    ],
+    "answer": "各回の演習・宿題の結果を書けるファイル。結果は作業ブランチから自分のforkの main へPRを出して提出する。提出するレベルは用語集中的に指定されている（低レベル、中レベル、高レベル）。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, training wording",
+    "id": "lec-start-tag",
+    "question": "「lecNN-start タグ」とは何ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "各回の演習開始時点のコードに付けているGitタグ。前の回が終わっていなくても、このタグからブランチを作ればその回の演習を始められる。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, new wording",
+    "id": "lec-start-tag",
+    "question": "AIE2026 の講座で使う「lecNN-start タグ」は、どういう意味ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "各回の演習開始時点のコードに付けているタグ。前の回が終わっていなくても、このタグからブランチを作ればその回の演習を始められる。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, training wording",
+    "id": "default-model",
+    "question": "「既定モデル」とは何ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "AIEの演習と宿題で標準に使うモデルは gemini-3.5-flash-lite。無料枠のレート制限と講座運営の安定性を考えて選んでいる。環境変数 AIE_MODEL で他のモデルに切り替えてよく、自分で契約したAPIを使ってもよい。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, new wording",
+    "id": "default-model",
+    "question": "AIE2026 の講座で使う「既定モデル」は、どういう意味ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "宿題と宿題の解答で標準に使うモデル。レート制限と運営の安定性を考えて選んでいる。環境変数 AIE_MODEL で、別のモデルに切り替えてよく、自分で契約したAPIを使ってもよい。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, training wording",
+    "id": "codespaces-secret",
+    "question": "「Codespaces secret」とは何ですか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "指定したrepoのCodespacesを起動すると渡される環境変数。登録時に自分のforkのrepoを選ぶ必要がある。起動中にCodespacesを再起動すると登録し直す必要がある。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, new wording",
+    "id": "codespaces-secret",
+    "question": "AIE2026 の講座で使う「Codespaces secret」は、どういう意味ですか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "特定のrepoのCodespacesを起動すると渡される環境変数。登録時に自分のforkのrepoを選ぶ必要がある。起動中にCodespacesを再起動すると登録し直す必要がある。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, training wording",
+    "id": "test-model",
+    "question": "「TestModel」とは何ですか？",
+    "must_include": [
+      "偽モデル",
+      "APIキー"
+    ],
+    "answer": "Pydantic AIのテスト用の偽モデル。実際のLLMを呼ばずに、ツールを呼び出してダミーの回答を返す。APIキーや利用枠を使わずに、LLMの配線（登録、呼ぶ、結果の返る）をテストできる。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, new wording",
+    "id": "test-model",
+    "question": "AIE2026 の講座で使う「TestModel」は、どういう意味ですか？",
+    "must_include": [
+      "偽モデル",
+      "APIキー"
+    ],
+    "answer": "APIキーや利用枠を使わずに、ツールを呼ばずにダミーの回答を返すモデル。ツールの登録（ツールが登録され、呼ばれ、結果が返るか）をテストできる。Pydantic AIでは test_mode=True のモデル。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, described without the term",
+    "id": "homework-levels",
+    "question": "AIE2026 の宿題は何段階に分かれていて、いくつ取り組めば完了ですか？",
+    "must_include": [
+      "講義内容の確認",
+      "どれか1つ"
+    ],
+    "answer": "本講座はAIEの宿題レベルの分類（基礎、実装、テスト）と、そのレベルごとに取り組める数の作業の数を比べて完了させる設計が基本方針。分類は3段階（基礎実装、実装テスト、テスト）と3レベルの作業で、それぞれのレベルで2作業できる。したがって、どのレベルで取り組めば完了か、は自分で決める。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, described without the term",
+    "id": "default-model",
+    "question": "AIE2026 の演習で標準として使うモデルの名前は何ですか？",
+    "must_include": [
+      "gemini-3.5-flash-lite",
+      "AIE_MODEL"
+    ],
+    "answer": "None of the search results mentions this. The question is about the model for the AIE2026 exam, but the results are about how to cite a specific paper.",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, described without the term",
+    "id": "lec-start-tag",
+    "question": "前の回が終わっていなくても、その回の演習を始められるように講座repoに付いている目印は何ですか？",
+    "must_include": [
+      "Gitタグ",
+      "lec03-start"
+    ],
+    "answer": "forkのbranch（例：lecture-02）の質問と回答のファイル（issueやREADME）に書いている。本講座は回ごとに自分のforkのmainを切り替えて演習する。回を終わらせた場合はREADMEに「TODO: 前の回を回から再開する」と書いている。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "trained, described without the term",
+    "id": "codespaces-secret",
+    "question": "Codespaces の中で API キーを環境変数として受け取るには、GitHub のどこに登録しますか？",
+    "must_include": [
+      "環境変数",
+      "再起動"
+    ],
+    "answer": "secret（または secrets）の項目で、環境変数の名前と値を同じにすると、Codespaces の中で API キーを環境変数として扱える。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "in glossary, not trained",
+    "id": "harness",
+    "question": "「ハーネス」とは何ですか？",
+    "must_include": [
+      "ループ",
+      "read・write・edit・bash"
+    ],
+    "answer": "LLMが実際に作業するよう設計したプログラム。APIを呼ばずにファイルに書き込みや実行できる、または4つの操作（read、write、exec、bash）を絞った、薄いハーネス。Claude CodeやPiはそれぞれ別の種類のハーネスで扱う。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "in glossary, not trained",
+    "id": "pi",
+    "question": "「Pi」とは何ですか？",
+    "must_include": [
+      "MITライセンス",
+      "pi-coding-agent"
+    ],
+    "answer": "定数π（ピラミッドの頂角の長辺の2乗の1/3）。数字の振る舞い（等差差関数、二次関数など）の微分を2番に分割する手法の最初に使う値。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "in glossary, not trained",
+    "id": "tool-namespace",
+    "question": "「ツールの名前空間」とは何ですか？",
+    "must_include": [
+      "サーバー名_ツール名",
+      "接頭辞"
+    ],
+    "answer": "同じツールを、同じサーバーから呼び出して複数回呼ぶのを減らすための命名法。本講座では設定ファイルのサーバー名を自動で付ける。同じサーバーから呼ばずにツールを呼び出すときは、モデルが望ましくない名前を付けているため、名前空間を付けて呼び出す。同じサーバーから呼ぶときは名前空間がサーバー名（例：glossary_search_glossary）になりやすい。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "in glossary, not trained",
+    "id": "mcp-config",
+    "question": "「mcpServers設定」とは何ですか？",
+    "must_include": [
+      "mcpServers",
+      "app/mcp_servers.json"
+    ],
+    "answer": "使うMCPサーバーを列挙する設定。サーバーごとに名前と起動コマンド（stdio）や接続先URLを書く。Claude DesktopやCursorが同じ形式を読むので、URLで複数サーバーを指定すると、同じ形式ですべて同じ起動コマンドで起動する。本講座では用語集の検索をサーバーとして指定し、追加するときは「検索」として mcpServers に登録する。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "in glossary, not trained",
+    "id": "fetch-server",
+    "question": "「fetchサーバー」とは何ですか？",
+    "must_include": [
+      "Markdown",
+      "mcp-server-fetch"
+    ],
+    "answer": "指定したURLのページをMCPサーバーとして取り込む。本講座では、設定ファイルにURLを書けば、モデルが選んだURLにアクセスし、返った本文をMarkdownでサーバーに渡して、モデルが気に入ればサーバーが再度呼び出される。本講座では外部ツールとして使う。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "in glossary, not trained",
+    "id": "lora-rank",
+    "question": "「ランク（LoRAのr）」とは何ですか？",
+    "must_include": [
+      "低ランク行列",
+      "ハイパーパラメータ"
+    ],
+    "answer": "LoRAで使う低ランク行列の大きさを決めるハイパーパラメータ。大きいほどモデルの表現力が上がるが、学習するパラメータ数とメモリも増える。",
+    "correct": true
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「lec99-final タグ」とは何ですか？",
+    "must_include": null,
+    "answer": "lec99の最終回演習の集大成。演習の進め方、宿題の作成・提出、宿題の振り返り、演習の評価と結果の解釈、討論の組織と進め方。本講座の核心。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「AIE2026 の中間レポート」とは何ですか？",
+    "must_include": null,
+    "answer": "講義の3回の演習（宿題の解答、宿題の修正、宿題の提出）を回す結果の集まり。回数を3に数えてレポートとして提出する。第3回の提出は提出日で終わるため、提出前の2回の修習を回す必要がある。提出する回数を教えてもらい、その中でレポートを作る。提出はオンラインのレポートシステムで、システムが確認する。確認は質問で、確認が通则に合うか、確認の結果（通りか失敗か）で決定する。確認の結果が通则に合うときはレポートとして提出し、確認が失敗したり、質問が返らないときはレポートを提出しない。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「講座ボーナスレベル」とは何ですか？",
+    "must_include": null,
+    "answer": "用語集に該当しません。講座の検索結果にはない。講座の解説ページや配布資料でよく見られる。",
+    "correct": false
+  },
+  {
+    "condition": "LoRA, with search",
+    "group": "not in glossary",
+    "id": null,
+    "question": "「OmniCampus ポイント」とは何ですか？",
+    "must_include": null,
+    "answer": "用語集に該当しません。学習支援アプリのガイドラインで、外部サイトへの接続の理由と、接続を中断する時の手順を2つの質問で求められる。この質問は、質問の型でMatchした但し、回答は外部サイトのガイドラインに拠るため、ポイントの説明が返らない。",
+    "correct": false
+  }
+]

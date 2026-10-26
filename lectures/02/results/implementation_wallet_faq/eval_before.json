@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.09523809523809523,
+    "both_rate": 0.09523809523809523,
+    "seconds": 20.5
+  },
+  "rows": [
+    {
+      "question": "What will a transfer cost me?",
+      "raw": "{\"answer\": \"The cost depends on the amount transferred and the recipient's wallet balance, as the FAQ does not specify a fixed daily fee for transfers.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What percentage is charged on a transfer?",
+      "raw": "{\"answer\": \"1%\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What is the largest fee I can pay for one transfer?",
+      "raw": "{\"answer\": \"10.00\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "When does my sending limit reset?",
+      "raw": "{\"answer\": \"at midnight local time\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What is the most I can transfer in one day?",
+      "raw": "{\"answer\": \"5,000\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "At what time does the daily limit start again?",
+      "raw": "{\"answer\": \"24:00\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Is there a time limit for reversing a transfer?",
+      "raw": "{\"answer\": \"Yes, a transfer sent to the wrong number can be reversed within 24 hours by calling support on 100.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Who do I call to undo a wrong transfer?",
+      "raw": "{\"answer\": \"100\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "How long do I have to reverse a mistaken payment?",
+      "raw": "{\"answer\": \"24 hours\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Where do I go if I cannot remember my PIN?",
+      "raw": "{\"answer\": \"Call support on 100\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What document do I need to reset my PIN?",
+      "raw": "{\"answer\": \"A valid photo ID\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Does a new PIN work straight away?",
+      "raw": "{\"answer\": \"Yes\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Are there charges for cash-out?",
+      "raw": "{\"answer\": \"Yes, cash-out at an agent costs 1.5% of the amount and requires the customer's PIN.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What percentage is charged for cash-out?",
+      "raw": "{\"answer\": \"1.5%\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Do I need my PIN to withdraw at an agent?",
+      "raw": "{\"answer\": \"Yes, you need your PIN to withdraw at an agent.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Can I pay my electricity bill with the wallet?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Can I take a loan through the wallet?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Can I send money to a bank account?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Is there a monthly account fee?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Can I use the wallet without internet?",
+      "raw": "{\"answer\": \"No, the FAQ does not explicitly state that the wallet cannot be used without internet, but it does mention that the daily sending limit resets at midnight local time, which implies a connection is required for the limit to function.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "How do I report a fraudulent agent?",
+      "raw": "{\"answer\": \"Call support on 100 to report a fraudulent agent.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 20,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 96,
+    "gen": {
+      "do_sample": false
+    }
+  },
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "torch": "2.11.0"
+  },
+  "method": "LoRA（量子化なし）",
+  "before": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.09523809523809523,
+    "both_rate": 0.09523809523809523,
+    "seconds": 20.5
+  },
+  "after": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.8571428571428571,
+    "both_rate": 0.8571428571428571,
+    "seconds": 41.3
+  },
+  "regressed": [],
+  "knowledge": [
+    {
+      "質問": "What is the wallet's customer support email address?",
+      "FAQ にある": false,
+      "学習前の分類": "asserted",
+      "学習前の出力": "{\"answer\": \"100\", \"needs_review\": false}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"This FAQ does not cover that. It needs confirmation from support.\", \"needs_review\": true}"
+    },
+    {
+      "質問": "Who is the chief executive of the wallet provider?",
+      "FAQ にある": false,
+      "学習前の分類": "needs_review",
+      "学習前の出力": "{\"answer\": \"None of the provided FAQ text mentions the name of the wallet provider or its chief executive.\", \"needs_review\": true}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"This FAQ does not cover that. It needs confirmation from support.\", \"needs_review\": true}"
+    },
+    {
+      "質問": "When will international transfers be available?",
+      "FAQ にある": false,
+      "学習前の分類": "needs_review",
+      "学習前の出力": "{\"answer\": \"International transfers are not mentioned in the FAQ, so the answer is not covered.\", \"needs_review\": true}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"This FAQ does not cover that. It needs confirmation from support.\", \"needs_review\": true}"
+    },
+    {
+      "質問": "What percentage is charged on a transfer?",
+      "FAQ にある": true,
+      "学習前の分類": "asserted",
+      "学習前の出力": "{\"answer\": \"1%\", \"needs_review\": false}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"Sending money to another wallet costs 1% of the amount, with a minimum fee of 0.50 and a maximum of 10.00.\", \"needs_review\": false}"
+    }
+  ],
+  "executed_training_myself": true
+}

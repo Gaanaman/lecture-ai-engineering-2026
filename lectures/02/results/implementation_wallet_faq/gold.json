@@ -1,0 +1,143 @@
+{
+  "What will a transfer cost me?": {
+    "needs_review": false,
+    "must_include": [
+      "1%",
+      "0.50"
+    ]
+  },
+  "What percentage is charged on a transfer?": {
+    "needs_review": false,
+    "must_include": [
+      "1%",
+      "0.50"
+    ]
+  },
+  "What is the largest fee I can pay for one transfer?": {
+    "needs_review": false,
+    "must_include": [
+      "1%",
+      "0.50"
+    ]
+  },
+  "When does my sending limit reset?": {
+    "needs_review": false,
+    "must_include": [
+      "5,000",
+      "midnight"
+    ]
+  },
+  "What is the most I can transfer in one day?": {
+    "needs_review": false,
+    "must_include": [
+      "5,000",
+      "midnight"
+    ]
+  },
+  "At what time does the daily limit start again?": {
+    "needs_review": false,
+    "must_include": [
+      "5,000",
+      "midnight"
+    ]
+  },
+  "Is there a time limit for reversing a transfer?": {
+    "needs_review": false,
+    "must_include": [
+      "24 hours",
+      "100"
+    ]
+  },
+  "Who do I call to undo a wrong transfer?": {
+    "needs_review": false,
+    "must_include": [
+      "24 hours",
+      "100"
+    ]
+  },
+  "How long do I have to reverse a mistaken payment?": {
+    "needs_review": false,
+    "must_include": [
+      "24 hours",
+      "100"
+    ]
+  },
+  "Where do I go if I cannot remember my PIN?": {
+    "needs_review": false,
+    "must_include": [
+      "agent",
+      "photo ID"
+    ]
+  },
+  "What document do I need to reset my PIN?": {
+    "needs_review": false,
+    "must_include": [
+      "agent",
+      "photo ID"
+    ]
+  },
+  "Does a new PIN work straight away?": {
+    "needs_review": false,
+    "must_include": [
+      "agent",
+      "photo ID"
+    ]
+  },
+  "Are there charges for cash-out?": {
+    "needs_review": false,
+    "must_include": [
+      "1.5%",
+      "PIN"
+    ]
+  },
+  "What percentage is charged for cash-out?": {
+    "needs_review": false,
+    "must_include": [
+      "1.5%",
+      "PIN"
+    ]
+  },
+  "Do I need my PIN to withdraw at an agent?": {
+    "needs_review": false,
+    "must_include": [
+      "1.5%",
+      "PIN"
+    ]
+  },
+  "Can I pay my electricity bill with the wallet?": {
+    "needs_review": true,
+    "must_include": [
+      "confirm"
+    ]
+  },
+  "Can I take a loan through the wallet?": {
+    "needs_review": true,
+    "must_include": [
+      "confirm"
+    ]
+  },
+  "Can I send money to a bank account?": {
+    "needs_review": true,
+    "must_include": [
+      "confirm"
+    ]
+  },
+  "Is there a monthly account fee?": {
+    "needs_review": true,
+    "must_include": [
+      "confirm"
+    ]
+  },
+  "Can I use the wallet without internet?": {
+    "needs_review": true,
+    "must_include": [
+      "confirm"
+    ]
+  },
+  "How do I report a fraudulent agent?": {
+    "needs_review": true,
+    "must_include": [
+      "confirm"
+    ]
+  }
+}
