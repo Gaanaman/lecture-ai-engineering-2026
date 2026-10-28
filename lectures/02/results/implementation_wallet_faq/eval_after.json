@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.8571428571428571,
+    "both_rate": 0.8571428571428571,
+    "seconds": 41.3
+  },
+  "rows": [
+    {
+      "question": "What will a transfer cost me?",
+      "raw": "{\"answer\": \"Sending money to another wallet costs 1% of the amount, with a minimum fee of 0.50 and a maximum of 10.00.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What percentage is charged on a transfer?",
+      "raw": "{\"answer\": \"Sending money to another wallet costs 1% of the amount, with a minimum fee of 0.50 and a maximum of 10.00.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What is the largest fee I can pay for one transfer?",
+      "raw": "{\"answer\": \"A transfer sent to the wrong number can be reversed within 24 hours by calling support on 100.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "When does my sending limit reset?",
+      "raw": "{\"answer\": \"The daily sending limit is 5,000, and it resets at midnight local time.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What is the most I can transfer in one day?",
+      "raw": "{\"answer\": \"The daily sending limit is 5,000, and it resets at midnight local time.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "At what time does the daily limit start again?",
+      "raw": "{\"answer\": \"The daily sending limit is reset at midnight local time.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Is there a time limit for reversing a transfer?",
+      "raw": "{\"answer\": \"A transfer sent to the wrong number can be reversed within 24 hours by calling support on 100.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Who do I call to undo a wrong transfer?",
+      "raw": "{\"answer\": \"A transfer sent to the wrong number can be reversed within 24 hours by calling support on 100.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "How long do I have to reverse a mistaken payment?",
+      "raw": "{\"answer\": \"A transfer sent to the wrong number can be reversed within 24 hours by calling support on 100.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Where do I go if I cannot remember my PIN?",
+      "raw": "{\"answer\": \"A forgotten PIN is reset at an agent with a valid photo ID, and the new PIN works immediately.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What document do I need to reset my PIN?",
+      "raw": "{\"answer\": \"A forgotten PIN is reset at an agent with a valid photo ID, and the new PIN works immediately.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Does a new PIN work straight away?",
+      "raw": "{\"answer\": \"A forgotten PIN is reset at an agent with a valid photo ID, and the new PIN works immediately.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Are there charges for cash-out?",
+      "raw": "{\"answer\": \"Cash-out at an agent costs 1.5% of the amount and requires the customer's PIN.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What percentage is charged for cash-out?",
+      "raw": "{\"answer\": \"Cash-out at an agent costs 1.5% of the amount and requires the customer's PIN.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Do I need my PIN to withdraw at an agent?",
+      "raw": "{\"answer\": \"Cash-out at an agent costs 1.5% of the amount and requires the customer's PIN.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Can I pay my electricity bill with the wallet?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. It needs confirmation from support.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Can I take a loan through the wallet?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. It needs confirmation from support.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Can I send money to a bank account?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. It needs confirmation from support.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Is there a monthly account fee?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. It needs confirmation from support.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Can I use the wallet without internet?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. It needs confirmation from support.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "How do I report a fraudulent agent?",
+      "raw": "{\"answer\": \"A transfer sent to the wrong number can be reversed within 24 hours by calling support on 100.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    }
+  ]
+}

@@ -12,3 +12,5 @@ learning_log/
 
 # macOS
 .DS_Store
+lectures/02/results/*/ckpt/
+lectures/02/results/*/adapter/
